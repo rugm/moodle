@@ -1946,7 +1946,7 @@ class api {
             $eventdata->fullmessage = html_to_text($eventdata->fullmessagehtml);
         } else {
             $eventdata->fullmessage      = $message;
-            $eventdata->fullmessagehtml  = '';
+            $eventdata->fullmessagehtml  = $message;
         }
 
         $eventdata->fullmessageformat = $format;
